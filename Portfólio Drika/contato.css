@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Short Stack', cursive;
+}
+
+body{
+    width: 100%;
+    height: auto;
+}
+
+.menu{
+    border: solid yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+ul{
+    border: solid green;
+    display: flex;
+    justify-content: space-around;
+}
+
+li{
+    list-style-type: none;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    border: solid palevioletred;
+}
+
+.get_in_touch{
+    border: solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 20rem;
+    margin-top: 2rem;
+}
+
+.get_in_touch form{
+    border: solid rebeccapurple;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 15rem;
+    width: 40rem;
+}
+
+.get_in_touch button{
+    width: 10rem;
+    margin: 0 auto;
+}
+
+.social_network{
+    border: solid orange;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 10rem;
+}
+
+.social_network div{
+    border: solid blue;
+    width: 20rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.social_network a img{
+    width: 4rem;
+    border: solid black;
+}
+
+footer{
+    border: solid green;
+    text-align: center;
+}
