@@ -5,13 +5,18 @@
     font-family: 'Short Stack', cursive;
 }
 
+:root{
+    --gold: #ffd700;
+    --ivory: #fffff0;
+}
+
 body{
+    background-color: #28292a;
     width: 100%;
     height: auto;
 }
 
 .menu{
-    border: solid salmon;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -20,35 +25,41 @@ body{
 }
 
 .menu_nav{
-    border: solid yellow;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
 
 .menu_pic{
-    border: solid green;
     width: 12rem;
 }
 
 ul{
-    border: solid green;
     display: flex;
     justify-content: space-around;
 }
 
 li{
+    color: var(--ivory);
+    cursor: pointer;
     list-style-type: none;
     font-size: larger;
     font-weight: bolder;
 }
 
 a{
+    color: var(--ivory);
     text-decoration: none;
 }
 
+a:hover{
+    color: var(--gold);
+    border-bottom: 1px solid var(--ivory);
+    
+}
+
 h1{
-    border: solid aqua;
+    color: var(--gold);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -56,40 +67,41 @@ h1{
 }
 
 main{
-    border: solid yellow;
     display: flex;
     flex-direction: column;
     margin-top: 2rem;
 }
 
 h2{
+    border-bottom: 1px solid var(--ivory);
+    color: var(--gold);
     text-align: center;
     font-size: 2rem;
+    margin: 0 auto;
+    width: 90%;
 }
 
 .about_me{
-    border: solid blueviolet;
     width: 100%;
 }
 
 .about_me img{
-    border: solid green;
     width: 15rem;
     margin: 2rem;
     float: left;
 }
 
 .about_me_text{
-    border: solid red;
     margin: 1rem;
 }
 
 .about_me_text p{
+    color: var(--ivory);
     font-size: 1.2em;
     margin: 1.5rem;
 }
 
 footer{
-    border: solid green;
+    color: var(--ivory);
     text-align: center;
 }
